@@ -4,7 +4,7 @@ with smtplib.SMTP('smtp.gmail.com',587) as smtp:
     smtp.starttls()
     smtp.ehlo()
 
-    smtp.login('mondal.sayantan1234@gmail.com','khdilvquacoyxlvz')
+    smtp.login('mondal.sayantan1234@gmail.com','yourpass')
     subject='meeting link'
     body='link'
 
